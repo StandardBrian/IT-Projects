@@ -22,10 +22,11 @@ Setting Up Windows 10 VM
     - Network Adapter enable
   Step 4: Start VM and complete windows setup
     - Windows 10 Pro
-    
+  Step 5: Restart VM and Sign into windows to verify completion
 
-
-
+Summary:
+At this point the start of my virtual lab is ready. Virtual Machines are a great tool for learning you can experiment without messing with your physical device and they are inexpensive. I have also used the snapshot feature at the point of the first time logging in, this will make it
+easier and much faster to make multiple machines.
 
 Notes: 
 - Had an issue entering windows setup the first time booting. The first thing I tried doing was boot into the bios to change the boot order, but it kept giving me the same error. The way I fixed the problem was powering off the VM and disable the floppy disk drive completely.
