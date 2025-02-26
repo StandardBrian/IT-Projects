@@ -1,4 +1,4 @@
-Setting Up VirtualBox with Windows 11
+# Setting Up VirtualBox with Windows 10 on Windows 11
 
 ## Goal
 Deploy a Windows 10 VM on my Windows 11 PC using VirtualBox to create a help desk test environment.
@@ -7,11 +7,6 @@ Deploy a Windows 10 VM on my Windows 11 PC using VirtualBox to create a help des
 - **Host**: Windows 11 PC
 - **Tools**: VirtualBox 7.x, Windows 10 ISO (trial version)
 - **Specs**: 2GB RAM, 20GB dynamically allocated disk
-
-# Setting Up VirtualBox with Windows 10 on Windows 11
-
-## Goal
-Deploy a Windows 10 VM on my Windows 11 PC using VirtualBox to create a help desk test environment.
 
 ## Steps
 1. **Installed VirtualBox on Windows 11**  
