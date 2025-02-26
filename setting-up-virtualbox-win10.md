@@ -1,4 +1,4 @@
- Setting Up VirtualBox with Windows 11
+Setting Up VirtualBox with Windows 11
 
 ## Goal
 Deploy a Windows 10 VM on my Windows 11 PC using VirtualBox to create a help desk test environment.
