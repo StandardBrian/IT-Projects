@@ -8,35 +8,40 @@ Deploy a Windows 10 VM on my Windows 11 PC using VirtualBox to create a help des
 - **Tools**: VirtualBox 7.x, Windows 10 ISO (trial version)
 - **Specs**: 2GB RAM, 20GB dynamically allocated disk
 
+# Setting Up VirtualBox with Windows 10 on Windows 11
+
+## Goal
+Deploy a Windows 10 VM on my Windows 11 PC using VirtualBox to create a help desk test environment.
+
 ## Steps
 1. **Installed VirtualBox on Windows 11**  
-   - Downloaded the Windows installer from virtualbox.org
-   - Ran the .exe
-   - Followed the setup wizard: Accepted defaults, allowed network adapter changes when prompted
-   - Launched VirtualBox from Start menu to confirm it worked—no errors.
+   - Downloaded the Windows installer from virtualbox.org (picked “Windows hosts,” ~100MB file).
+   - Double-clicked the .exe to install—no admin needed, ran fine as standard user.
+   - Wizard prompted for network adapters (“Oracle VM VirtualBox Networking”)—clicked yes to proceed.
+   - Opened VirtualBox from Start menu; blank manager window loaded, no crashes.
 
 2. **Downloaded Windows 10 ISO**  
-   - Visited microsoft.com/en-us/software-download/windows10 in Edge.
-   - Used the Media Creation Tool: Clicked “Download tool now,” ran it, selected “Create installation media” > “ISO file” (not USB), chose Windows 10 64-bit.
-   - Saved to Downloads folder.
-   - Verified file wasn’t corrupt by checking its size matched expectations.
+   - Went to microsoft.com/en-us/software-download/windows10 in Edge.
+   - Ran Media Creation Tool: “Download tool now,” picked “ISO file” over USB, chose Windows 10 64-bit.
+   - Saved to Downloads (~5GB, took 20 minutes on my Wi-Fi—slower than expected).
+   - Checked file size in File Explorer to ensure it downloaded fully.
 
 3. **Created a VM in VirtualBox**  
-   - Opened VirtualBox, clicked “New” in the toolbar.
-   - Named it “PC1,” set Type to “Microsoft Windows,” Version to “Windows 10 (64-bit).”
-   - Allocated 4GB RAM
-   - Created a virtual hard disk: Picked “Create a virtual hard disk now,” 20GB, VDI type, “Dynamically allocated” to save space.
+   - In VirtualBox, hit “New” on the toolbar.
+   - Named it “HelpDeskTest,” set Type to “Microsoft Windows,” Version “Windows 10 (64-bit).”
+   - Gave it 2GB RAM—my PC has 16GB total, checked via Task Manager (Ctrl+Shift+Esc).
+   - Set up a 20GB disk: “Create a virtual hard disk now,” VDI type, “Dynamically allocated.”
 
 4. **Configured Storage and Installed Windows 10**  
-   - Went to Settings > Storage for “PC1”
-   - Under “Controller: IDE,” clicked the empty disk icon, selected “Choose a disk file,” picked my Windows 10 ISO from Downloads.
-   - Started the VM: Hit “Start,” saw the Windows boot screen, chose “Custom: Install Windows only” (no key needed for trial).
-   - Followed install prompts: Picked the 20GB drive, waited ~30-60 minutes for install, set up a basic user account.
+   - Opened Settings > Storage for “HelpDeskTest.”
+   - Under “Controller: IDE,” clicked the disk icon, chose my Windows 10 ISO from Downloads.
+   - Started VM—Windows boot screen loaded, picked “Custom: Install Windows only” (skipped key).
+   - Install took ~40 minutes; set a basic user with no password for simplicity.
 
 5. **Tested Functionality**  
-   - Logged into Windows 10 VM, saw the desktop.
-   - Opened Notepad (Start > type “Notepad”) and File Explorer to confirm it ran smoothly.
-   - Shut down cleanly (Start > Power > Shut down) to avoid boot issues later.
+   - Logged into Windows 10 VM, desktop appeared.
+   - Ran Notepad and File Explorer—both opened fast, no lag.
+   - Shut down via Start > Power > Shut down to keep it stable for next steps.
 
 ## Outcome
 Successfully set up a Windows 10 VM, ready for help desk troubleshooting scenarios.
@@ -47,8 +52,9 @@ Successfully set up a Windows 10 VM, ready for help desk troubleshooting scenari
 - ![Windows 10 Desktop](win10-desktop.png) *(Upload pending)*
 
 ## Summary
-- At this point the start of my virtual lab is ready. Virtual Machines are a great tool for learning you can experiment without messing with your physical device and they are inexpensive. I have also used the snapshot feature at the point of the first time logging in, this will make it
-easier and much faster to make multiple machines.
+- Wanted a hands-on project to prove my A+ skills—like OS installs and virtualization—for help desk roles.
+- Chose VirtualBox on Windows 11 since it’s my main PC, and Windows 10 VMs mimic common user setups I’d support.
+- Aimed to build a portfolio piece that shows I can set up test environments, a skill for troubleshooting tickets.
 
-## Notes
-- Had an issue entering windows setup the first time booting. The first thing I tried doing was boot into the bios to change the boot order, but it kept giving me the same error. The way I fixed the problem was powering off the VM and disable the floppy disk drive completely.
+## Notes (What I Learned)
+- **Fix**: Had an issue entering windows setup the first time booting. It was trying to boot off the floppy drive 
