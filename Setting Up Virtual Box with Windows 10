@@ -13,7 +13,16 @@ Create Windows ISO file
     - Make sure not to pick the option to download windows 10 to a bootable device or ISO file
   
 Setting Up Windows 10 VM
-  Step 1: Click "New" to make new VM
+  Step 1: Click "New" to make new VM.
+  Step 2: Name the VM and Select the Windows ISO file.
+  Step 3: Allocate VM resorces from my physical machine
+    - Memory 4GB
+    - Cores 1
+    - HDD 20 GB
+    - Network Adapter enable
+  Step 4: Start VM and complete windows setup
+    - Windows 10 Pro
+    
 
 
 
