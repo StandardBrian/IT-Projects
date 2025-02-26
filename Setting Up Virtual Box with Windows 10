@@ -8,4 +8,15 @@ Install VirtualBox
   Step 4: Restart PC
 
 Create Windows ISO file
-  Step 1:
+  Step 1: Visit https://www.microsoft.com/en-us/software-download/windows10 and download the windows media creation tool
+  Step 2: Run .exe file just downloaded and navigate through the set up
+    - Make sure not to pick the option to download windows 10 to a bootable device or ISO file
+  
+Setting Up Windows 10 VM
+  Step 1: Click "New" to make new VM
+
+
+
+
+Notes: 
+- Had an issue entering windows setup the first time booting. The first thing I tried doing was boot into the bios to change the boot order, but it kept giving me the same error. The way I fixed the problem was powering off the VM and disable the floppy disk drive completely.
