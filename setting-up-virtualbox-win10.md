@@ -52,4 +52,5 @@ Successfully set up a Windows 10 VM, ready for help desk troubleshooting scenari
 - Aimed to build a portfolio piece that shows I can set up test environments, a skill for troubleshooting tickets.
 
 ## Notes
-- ad an issue entering Windows setup the first time booting. It was trying to boot off the floppy drive—removed floppy in Storage to fix it.
+- Had an issue entering Windows setup the first time booting. It was trying to boot off the floppy drive—removed floppy in Storage to fix it.
+- Used snapshot function to have a point to clone VMs later.
