@@ -23,12 +23,12 @@ Deploy a Windows 10 VM on my Windows 11 PC using VirtualBox to create a help des
 
 3. **Created a VM in VirtualBox**  
    - In VirtualBox, hit “New” on the toolbar.
-   - Named it “HelpDeskTest,” set Type to “Microsoft Windows,” Version “Windows 10 (64-bit).”
-   - Gave it 2GB RAM—my PC has 16GB total, checked via Task Manager (Ctrl+Shift+Esc).
+   - Named it “PC1,” set Type to “Microsoft Windows,” Version “Windows 10 (64-bit).”
+   - Gave it 2GB RAM—my PC has 64GB total.
    - Set up a 20GB disk: “Create a virtual hard disk now,” VDI type, “Dynamically allocated.”
 
 4. **Configured Storage and Installed Windows 10**  
-   - Opened Settings > Storage for “HelpDeskTest.”
+   - Opened Settings > Storage for “PC1”
    - Under “Controller: IDE,” clicked the disk icon, chose my Windows 10 ISO from Downloads.
    - Started VM—Windows boot screen loaded, picked “Custom: Install Windows only” (skipped key).
    - Install took ~40 minutes; set a basic user with no password for simplicity.
