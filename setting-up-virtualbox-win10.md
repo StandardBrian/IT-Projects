@@ -43,7 +43,7 @@ Successfully set up a Windows 10 VM, ready for help desk troubleshooting scenari
 
 ## Screenshots
 - ![VirtualBox on Win11](virtualbox-win11.png) *(Upload pending)*
-- ![ISO Loaded](iso-loaded.png) *(Upload pending)*
+- ![ISO Loaded](ISO-Loaded.png) *(Upload pending)*
 - ![Windows 10 Desktop](win10-desktop.png) *(Upload pending)*
 
 ## Summary
