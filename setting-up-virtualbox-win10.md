@@ -51,5 +51,5 @@ Successfully set up a Windows 10 VM, ready for help desk troubleshooting scenari
 - Chose VirtualBox on Windows 11 since it’s my main PC, and Windows 10 VMs mimic common user setups I’d support.
 - Aimed to build a portfolio piece that shows I can set up test environments, a skill for troubleshooting tickets.
 
-## Notes (What I Learned)
-- Had an issue entering windows setup the first time booting. It was trying to boot off the floppy drive 
+## Notes
+- ad an issue entering Windows setup the first time booting. It was trying to boot off the floppy drive—removed floppy in Storage to fix it.
