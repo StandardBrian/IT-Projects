@@ -1,2 +1,11 @@
 This is something I am very familiar with doing. I used Virtual Machines in college to complete assigns. Although they are not very complicated to understand I think its valuable to demonstrate I know the technology because it is used in many networks to cut cost of physical machines.
 
+Install VirtualBox
+  Step 1: Visit https://www.virtualbox.org/wiki/Downloads and download the version of virtual box for my OS.
+    - In this case windows 
+  Step 2: Run the .exe file, and follow the setup wizard
+  Step 3: Open VirtualBox and verify it is working
+  Step 4: Restart PC
+
+Create Windows ISO file
+  Step 1:
