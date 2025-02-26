@@ -1,3 +1,7 @@
-# IT-Projects
+# IT Projects Portfolio
+Brian’s hands-on IT projects for a help desk career. Certified in CompTIA A+ and Security+.  
+- **Machines**: Laptop (Linux Mint), PC (Windows 11)  
+- **Focus**: Troubleshooting, networking, security  
 
-Hello future employer welcome to my github! This is where I will demonstrate my capabilities with technology and walk you through my thought process. 
+## Projects
+- [Setting Up VirtualBox with Windows 10](setting-up-virtualbox-win10.md) - VM setup on Windows 11.
