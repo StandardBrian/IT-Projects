@@ -44,7 +44,7 @@ Successfully set up a Windows 10 VM, ready for help desk troubleshooting scenari
 ## Screenshots
 - ![VirtualBox on Win11](virtualbox-win11.png) *(Upload pending)*
 - ![ISO Loaded](ISO-Loaded.png) *(Upload pending)*
-- ![Windows 10 Desktop](win10-desktop.png) *(Upload pending)*
+- ![Windows 10 Desktop](Windows-10-VM-Desktop.png) *(Upload pending)*
 
 ## Summary
 - Wanted a hands-on project to prove my A+ skills—like OS installs and virtualization—for help desk roles.
