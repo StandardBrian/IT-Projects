@@ -5,17 +5,22 @@ Simulate and resolve a no-boot scenario on my Windows 10 VM to practice help des
 
 ## Setup
 - Host: Windows 11 PC
-- VM: “PC1” (Windows 10, 4GB RAM, 20GB disk)
+- VM: “PC1” (Windows 10, 2GB RAM, 20GB disk)
 - Tools: VirtualBox 7.0.12
 
 ## Steps
-1. Broke the VM
-3. Booted VM, saw error: “No bootable medium”
-4. Fixed it: reattached disk in Storage.
-5. Tested: VM booted to desktop, ran Notepad.
+1. Broke the VM:
+   - Removed the virtual disk (PC1.vdi) from Storage settings under Controller: SATA.
+2. Booted “PC1,” saw error:
+   - “FATAL: No bootable medium found! System halted.”—no OS detected.
+3. Fixed it:
+   - Reattached the disk (PC1.vdi) in Storage under Controller: SATA.
+   - Booted to Safe Mode automatically—restarted from Safe Mode to boot normally.
+4. Tested:
+   - Booted to desktop, ran Notepad and File Explorer—worked fine.
 
 ## Outcome
-Restored VM to working state—ready for more tests.
+Restored “PC1” to normal booting state—ready for more tests.
 
 ## Screenshots
 - ![Error Screen](no-boot-error.png)
@@ -23,7 +28,7 @@ Restored VM to working state—ready for more tests.
 - ![Restored Desktop](restored-desktop.png)
 
 ## Summary (Why I Did This)
-- Wanted to mimic a common help desk call—PC won’t boot—and solve it with A+ skills.
+- Wanted to mimic a help desk call—PC won’t boot due to a missing drive—and fix it with A+ skills.
 
 ## Notes (What I Learned)
-- [Fill in after—e.g., “Safe Mode’s quick for boot fixes—took 15 minutes.”]
+- Removing the disk caused a clear “No bootable medium” error; reattaching booted to Safe Mode—restarting fixed it in ~10 minutes.
