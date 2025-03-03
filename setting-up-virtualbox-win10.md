@@ -42,9 +42,9 @@ Deploy a Windows 10 VM on my Windows 11 PC using VirtualBox to create a help des
 Successfully set up a Windows 10 VM, ready for help desk troubleshooting scenarios.
 
 ## Screenshots
-![VirtualBox on Win11](virtualbox-win11.png) *(VirtualBox Installed)*
-![ISO Loaded](ISO-Loaded.png) *(ISO Loaded)*
-![Windows 10 Desktop](Windows-10-VM-Desktop.png) *(Windows 10 VM booted)*
+![VirtualBox on Win11](https://github.com/StandardBrian/IT-Projects/blob/images/virtualbox-win11.png) *(VirtualBox Installed)*
+![ISO Loaded](https://github.com/StandardBrian/IT-Projects/blob/images/ISO-Loaded.png) *(ISO Loaded)*
+![Windows 10 Desktop](https://github.com/StandardBrian/IT-Projects/blob/images/Windows-10-VM-Desktop.png) *(Windows 10 VM booted)*
 
 ## Summary
 - Wanted a hands-on project to prove my A+ skills—like OS installs and virtualization—for help desk roles.
