@@ -1,4 +1,4 @@
-# Brian's IT Projects Portfolio 🚀
+# Brian's IT Projects Portfolio
 Hi! I’m Brian, an aspiring help desk pro with CompTIA A+ and Security+ certs. This repo showcases hands-on IT projects—troubleshooting, virtualization, and system setup—to prep for a support role.
 
 ## Projects 📂
