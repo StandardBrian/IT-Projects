@@ -26,7 +26,7 @@ Clone “PC1” into “PC2,” then network them to ping each other—practice 
 “PC1” and “PC2” successfully networked—can ping each other.
 
 ## Screenshots
-- ![PC2 Desktop](pc2-desktop.png)
+- ![PC2 Desktop]([pc2-desktop.png](https://github.com/StandardBrian/IT-Projects/blob/images/pc2-desktop.png))
 - ![PC1 IP Config](pc1-ipconfig.png)
 - ![Ping Success](ping-success.png)
 - ![PC2 Hostname](pc2-hostname.png)
