@@ -28,8 +28,8 @@ Clone “PC1” into “PC2,” then network them to ping each other—practice 
 ## Screenshots
  ![PC2 Desktop](https://github.com/StandardBrian/IT-Projects/blob/images/pc2-desktop.png)
  ![PC1 IP Config](https://github.com/StandardBrian/IT-Projects/blob/images/ipconfig.png)
- ![Ping Success]((https://github.com/StandardBrian/IT-Projects/blob/images/ping-success.png))
- ![PC2 Hostname]((https://github.com/StandardBrian/IT-Projects/blob/images/pc2-hostname.png))
+ ![Ping Success](https://github.com/StandardBrian/IT-Projects/blob/images/ping-success.png)
+ ![PC2 Hostname](https://github.com/StandardBrian/IT-Projects/blob/images/pc2-hostname.png)
 
 ## Summary (Why I Did This)
 - Wanted to practice networking—cloning and IP setup—for help desk troubleshooting with A+ skills.
