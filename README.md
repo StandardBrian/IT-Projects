@@ -6,6 +6,8 @@ Hi! I’m Brian, an aspiring help desk pro with CompTIA A+ and Security+ certs. 
   Deployed a Windows 10 VM on Windows 11, fixed a floppy boot issue—screenshots included!
 - **[Troubleshooting a No Boot Issue](no-boot-fix.md)** 🔧  
   Broke “PC1” by removing its disk, fixed it via Safe Mode recovery—fully documented.
+- **[Setting Up a Basic Network Between Two VMs](networking-vms.md)** 🌐  
+  Cloned “PC1” into “PC2,” networked them to ping each other—solved MAC and hostname cloning quirks.
 
 ## Skills & Tools 🔧
 - **Certs**: CompTIA A+, Security+
