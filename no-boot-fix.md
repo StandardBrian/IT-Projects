@@ -23,7 +23,7 @@ Simulate and resolve a no-boot scenario on my Windows 10 VM to practice help des
 Restored “PC1” to normal booting state—ready for more tests.
 
 ## Screenshots
- ![Error Screen](https://github.com/StandardBrian/IT-Projects/blob/images/no-boot-fix.md)
+ ![Error Screen](https://github.com/StandardBrian/IT-Projects/blob/images/no-boot-error.png)
  ![Fix in Progress](https://github.com/StandardBrian/IT-Projects/blob/images/fix-in-progress.png)
  ![Restored Desktop](https://github.com/StandardBrian/IT-Projects/blob/images/restored-desktop.png)
 
