@@ -23,9 +23,9 @@ Simulate and resolve a no-boot scenario on my Windows 10 VM to practice help des
 Restored “PC1” to normal booting state—ready for more tests.
 
 ## Screenshots
-- ![Error Screen](no-boot-error.png)
-- ![Fix in Progress](fix-in-progress.png)
-- ![Restored Desktop](restored-desktop.png)
+ ![Error Screen](no-boot-error.png)
+ ![Fix in Progress](fix-in-progress.png)
+ ![Restored Desktop](restored-desktop.png)
 
 ## Summary (Why I Did This)
 - Wanted to mimic a help desk call—PC won’t boot due to a missing drive—and fix it with A+ skills.
