@@ -5,14 +5,14 @@ Simulate and resolve a no-boot scenario on my Windows 10 VM to practice help des
 
 ## Setup
 - Host: Windows 11 PC
-- VM: “PC1” (Windows 10, 2GB RAM, 20GB disk)
+- VM: “PC1” (Windows 10, 4GB RAM, 20GB disk)
 - Tools: VirtualBox 7.0.12
 
 ## Steps
 1. Broke the VM:
    - Removed the virtual disk (PC1.vdi) from Storage settings under Controller: SATA.
 2. Booted “PC1,” saw error:
-   - “FATAL: No bootable medium found! System halted.”—no OS detected.
+   - “Could not read from the boot medium! Please insert a bootable medium and reboot.”—no OS detected.
 3. Fixed it:
    - Reattached the disk (PC1.vdi) in Storage under Controller: SATA.
    - Booted to Safe Mode automatically—restarted from Safe Mode to boot normally.
