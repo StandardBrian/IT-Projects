@@ -8,6 +8,8 @@ Hi! I’m Brian, an aspiring help desk pro with CompTIA A+ and Security+ certs. 
   Broke “PC1” by removing its disk, fixed it via Safe Mode recovery—fully documented.
 - **[Setting Up a Basic Network Between Two VMs](networking-vms.md)** 🌐  
   Cloned “PC1” into “PC2,” networked them to ping each other—solved MAC and hostname cloning quirks.
+- **[Connecting Linux Mint 22 Laptop to Windows 11 Pro via RDP](rdp-linux-to-win11.md)** ☕  
+  Set up Remote Desktop on my 64GB RAM home PC, accessed it from my Mint laptop at coffee shops—controlled VMs remotely.
 
 ## Skills & Tools 🔧
 - **Certs**: CompTIA A+, Security+
