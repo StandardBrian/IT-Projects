@@ -12,6 +12,9 @@ Hi! I’m Brian, an aspiring help desk pro with CompTIA A+ and Security+ certs. 
   Set up Remote Desktop on my 64GB RAM home PC, accessed it from my Mint laptop at coffee shops—controlled VMs remotely.
 - **[Formatting a New SSD on Windows 11 Pro](formatting-ssd.md)** 💾
   Initialized and formatted a Crucial 2TB SSD via M.2—ready for storage use.
+- **[Resizing Virtual Hard Disks for PC1 and PC2](resize-vm-disks.md)** 📀  
+  Resized “PC1” and “PC2” disks to 40GB, extended C: drives—expanded VM storage.
+  
 
 ## Skills & Tools 🔧
 - **Certs**: CompTIA A+, Security+
