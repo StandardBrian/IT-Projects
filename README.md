@@ -20,7 +20,7 @@ Hi! I’m Brian, an aspiring help desk pro with CompTIA A+ and Security+ certs. 
 
 ## Skills & Tools 🔧
 - **Certs**: CompTIA A+, Security+
-- **Tech**: VirtualBox, Windows 10/11, Linux Mint, Troubleshooting
+- **Tech**: VirtualBox, Windows 10/11, Linux Mint, Windows Server 2025
 - **Machines**: Windows 11 PC, Linux Mint Laptop
 
 ---
