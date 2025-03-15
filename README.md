@@ -14,6 +14,8 @@ Hi! I’m Brian, an aspiring help desk pro with CompTIA A+ and Security+ certs. 
   Initialized and formatted a Crucial 2TB SSD via M.2—ready for storage use.
 - **[Resizing Virtual Hard Disks for PC1 and PC2](resize-vm-disks.md)** 📀  
   Resized “PC1” and “PC2” disks to 40GB, extended C: drives—expanded VM storage.
+- **[Installing Windows Server 2025](install-windows-server.md)** 🖳  
+  Installed Windows Server 2025 on “Server1”—foundation for AD lab.
   
 
 ## Skills & Tools 🔧
