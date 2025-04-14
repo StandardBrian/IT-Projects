@@ -16,6 +16,8 @@ Hi! I’m Brian, an aspiring help desk pro with CompTIA A+ and Security+ certs. 
   Resized “PC1” and “PC2” disks to 40GB, extended C: drives—expanded VM storage.
 - **[Installing Windows Server 2025](install-windows-server.md)** 🖳  
   Installed Windows Server 2025 on “Server1”—foundation for AD lab.
+- **[Setting Up an Active Directory Server](active-directory-lab.md)** 🖧  
+  Promoted “Server1” to a Domain Controller, joined “PC1” and “PC2”—built a mini AD lab.
   
 
 ## Skills & Tools 🔧
