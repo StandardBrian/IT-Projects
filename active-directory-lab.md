@@ -27,10 +27,9 @@ Promote “AD-Server” to an Active Directory Domain Controller and join “PC1
 “Server1” runs as an Active Directory Domain Controller, “PC1” and “PC2” joined “mylab.local”—centralized lab management achieved!
 
 ## Screenshots
-- ![AD DS Install](https://github.com/StandardBrian/IT-Projects/raw/images/ad-ds-install.png)
-- ![Domain Config](https://github.com/StandardBrian/IT-Projects/raw/images/domain-config.png)
-- ![PC2 Join](https://github.com/StandardBrian/IT-Projects/raw/images/pc2-join.png)
-- ![User Login](https://github.com/StandardBrian/IT-Projects/raw/images/user-login.png)
+- ![AD Setup](https://github.com/StandardBrian/IT-Projects/blob/images/active-directory-installed.png)
+- ![Created Users On AD Server](https://github.com/StandardBrian/IT-Projects/blob/images/created-users.png)
+- ![User Connected to Domain](https://github.com/StandardBrian/IT-Projects/blob/images/connected-to-domain.png)
 
 ## Summary (Why I Did This)
 - Practice Active Directory setup and domain management—key help desk and enterprise skills with A+ foundations.
