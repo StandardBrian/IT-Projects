@@ -18,6 +18,8 @@ Hi! I’m Brian, an aspiring help desk pro with CompTIA A+ and Security+ certs. 
   Installed Windows Server 2025 on “Server1”—foundation for AD lab.
 - **[Setting Up an Active Directory Server](active-directory-lab.md)** 🖧  
   Promoted “Server1” to a Domain Controller, joined “PC1” and “PC2”—built a mini AD lab.
+- **[Configuring Password Requirements in Active Directory](ad-password-policy.md)** 🔒  
+  Enforced strong passwords via Group Policy on “AD-Server”—secured mylab.local.
   
 
 ## Skills & Tools 🔧
