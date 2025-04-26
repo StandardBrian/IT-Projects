@@ -20,7 +20,8 @@ Hi! I’m Brian, an aspiring help desk pro with CompTIA A+ and Security+ certs. 
   Promoted “Server1” to a Domain Controller, joined “PC1” and “PC2”—built a mini AD lab.
 - **[Configuring Password Requirements in Active Directory](ad-password-policy.md)** 🔒  
   Enforced strong passwords via Group Policy on “AD-Server”—secured mylab.local.
-  
+- **[Simulating a Ticketing System with osTicket](ticketing-system-lab.md)** 🎫  
+  Deployed osTicket on “AD-Server,” resolved mock user issues—simulated help desk workflows.
 
 ## Skills & Tools 🔧
 - **Certs**: CompTIA A+, Security+
